@@ -1,0 +1,8 @@
+var app = require('../server/server');
+
+//serve app
+var port = 8000;
+app.listen(port,function(){
+    "use strict";
+console.log('xpress started on 8000');
+});
